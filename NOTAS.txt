@@ -1,0 +1,8 @@
+--- NOTAS ---
+
+A diferença do modelo nao sql: 2 tipos de banco de dados o relacional o banco de dados nao relacional(MongoDB:trabalha com documento, orientada a objeto,nao usa a base do sql), trabalhar com dados semi estruturados ou estruturados, para ganhar velocidade (desnomalizar as informaçoes nao depender da chave primaria ou depender da chave primaria),,--- seperação de uma tabela com a outra---,, 
+
+Inner Join deixa as pesquisas lentas,
+
+SELECT * FROM SYSOBJECTS WHERE name='QTDE_CIDADE' (Pesquisa tudo dentro da tabela usando xtype:'U')
+ele nao mostra se a tabela nao existe
